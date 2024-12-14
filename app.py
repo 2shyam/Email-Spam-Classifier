@@ -6,6 +6,7 @@ from string import punctuation
 import nltk
 nltk.download('stopwords')
 import sklearn
+nltk.download('punkt_tab')
 
 stop=stopwords.words('english')
 stop_word_list=list(punctuation)+stop
