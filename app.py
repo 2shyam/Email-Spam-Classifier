@@ -3,6 +3,8 @@ import pickle
 import nltk
 from nltk.corpus import stopwords
 from string import punctuation
+import nltk
+nltk.download('stopwords')
 
 stop=stopwords.words('english')
 stop_word_list=list(punctuation)+stop
